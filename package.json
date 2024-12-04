@@ -1,0 +1,33 @@
+{
+  "name": "solid-components",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "keywords": [
+    "solid"
+  ],
+  "author": "Mohamed Samara (https://github.com/mohamedsamara)",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.0",
+    "vite-plugin-solid": "^2.11.0",
+    "vite-tsconfig-paths": "^5.1.3"
+  },
+  "dependencies": {
+    "@solidjs/router": "^0.15.1",
+    "class-variance-authority": "^0.7.1",
+    "solid-js": "^1.9.3",
+    "tailwind-merge": "^2.5.5",
+    "uuid": "^11.0.3",
+    "zod": "^3.23.8"
+  }
+}
